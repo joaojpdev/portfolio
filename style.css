@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #16181D;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+
+  display: grid;
+  justify-items: center;
+  height: 750px;
+}
+
+.profile {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photo {
+  position: relative;
+  width: 150px;
+  margin-inline: auto;
+  margin-bottom: 45px;
+}
+
+.photo img:nth-child(2) {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 3px;
+}
+
+.photo label {
+  position: absolute;
+
+  bottom: 6px;
+  right: 6px;
+  
+}
+
+.photo label img {
+  width: 35px;
+}
+
+.text p:first-child {
+font-family: 'Inconsolata';
+
+font-size: 20px;
+line-height: 120%;
+
+color: #C0C4CE;
+}
+
+.text p:first-child span {
+  color: pink;
+}
+
+.text h1 {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  color: white;
+  margin: 10px 0 16px;
+}
+
+p {
+  font-family: 'Maven Pro';
+
+  font-size: 14px;
+  line-height: 140%;
+
+  color: #878EA1;
+}
+
+.text p:last-child {
+  font-size: 16px;
+}
+
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+
+.icon-wrapper {
+  font-family: 'Maven Pro';
+  font-size: 16px;
+  line-height: 140%;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 16px;
+
+  background: #292C34;
+  border-radius: 999px;
+
+  text-decoration: none;
+  color: #C0C4CE;
+  display: flex;
+}
+
+header a img {
+  margin-top: 85px;
+}
+
+.container {
+  max-width: 1040px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+h3 {
+font-family: 'Inconsolata';
+font-size: 20px;
+line-height: 120%;
+font-weight: 400;
+color: #E3646E;
+
+margin-top: 90px;
+}
+
+.arrow {
+  color: #16181D;
+}
+
+h2 {
+font-family: 'Asap';
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+color: #E2E4E9;
+
+margin-block: 8px 56px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  width: 330px;
+  height: auto;
+  padding: 12px;
+  background-color: #292C34;
+  text-align: start;
+}
+
+.card img {
+  border-radius: 12px;
+}
+
+main h5 {
+  color: white;
+  font-family: 'Asap';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  margin-block: 24px 6px;
+}
+
+main > div {
+  margin-top: 130px;
+}
+
+.myServices {
+  background-color: #0d0e11;
+  padding: 88px 120px 120px 120px;
+  text-align: center;
+}
+
+.myServices h3 {
+  margin-top: 0;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.service {
+  width: 280px;
+  height: 155px;
+  text-align: start;
+
+  padding: 20px;
+
+  border: 2px solid #16181D;
+  border-radius: 12px;
+}
+
+.service img {
+  width: 48px;
+  height: auto;
+}
+
+footer .card {
+  width: 400px;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 16px auto;
+}
+
+footer .card div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+footer .card img {
+  width: 24px;
+  border-radius: 0;
+}
+
+footer .card img:last-child {
+  width: 14px;
+} 
+
+footer {
+  padding-bottom: 200px;
+}

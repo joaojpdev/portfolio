@@ -117,11 +117,14 @@ p {
 
   text-decoration: none;
   color: #C0C4CE;
-  display: flex;
 }
 
 header a img {
   margin-top: 85px;
+}
+
+main > div {
+  margin-top: 130px;
 }
 
 .container {
@@ -138,10 +141,6 @@ font-weight: 400;
 color: #E3646E;
 
 margin-top: 90px;
-}
-
-.arrow {
-  color: #16181D;
 }
 
 h2 {
@@ -168,6 +167,10 @@ margin-block: 8px 56px;
   text-align: start;
 }
 
+.card a {
+  text-decoration: none;
+}
+
 .card img {
   border-radius: 12px;
 }
@@ -181,9 +184,6 @@ main h5 {
   margin-block: 24px 6px;
 }
 
-main > div {
-  margin-top: 130px;
-}
 
 .myServices {
   background-color: #0d0e11;
@@ -222,11 +222,13 @@ footer .card {
   width: 400px;
   height: auto;
 
+  margin: 16px auto;
+}
+
+footer .card a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  margin: 16px auto;
 }
 
 footer .card div {
